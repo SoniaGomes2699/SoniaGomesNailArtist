@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sónia Gomes Nail Artist</title>
 
-     <style>
+    <style>
         /* Estilização do cabeçalho */
         .header {
             display: flex;
-            justify-content: space-between; /* Espaço entre logo e links */
+            justify-content: space-between; /* Logo à esquerda, links à direita */
             align-items: center;
             padding: 20px;
             background-color: transparent; /* Fundo transparente */
@@ -22,38 +22,41 @@
             height: 50px; /* Ajuste conforme necessário */
         }
 
-        /* Links à direita */
+        /* Links alinhados verticalmente */
         .nav-links {
             display: flex;
-            gap: 20px; /* Espaçamento entre os links */
+            flex-direction: column; /* Deixa os links um abaixo do outro */
+            align-items: flex-end; /* Alinha à direita */
         }
 
         .nav-links a {
             text-decoration: none;
             color: white;
             font-size: 18px;
-            transition: 0.3s; /* Efeito suave na transição */
+            transition: 0.3s;
+            margin-bottom: 10px; /* Espaçamento entre os links */
         }
 
-        /* Efeito hover */
+        /* Efeito hover (brilho branco) */
         .nav-links a:hover {
             color: #ffffff;
-            text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6); /* Branco brilhante */
+            text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
         }
     </style>
 </head>
 <body style="background-color: black;">
+
      <header class="header">
         <!-- Logotipo -->
         <div class="logo">
             <img src="https://github.com/SoniaGomes2699/SoniaGomesNailArtist/blob/main/Logótipo.png?raw=true" alt="Meu Logotipo">
         </div>
 
-        <!-- Links -->
+        <!-- Links (um abaixo do outro) -->
         <nav class="nav-links">
             <a href="#">Marcações</a>
             <a href="#">Contactos</a>
         </nav>
-    </header>
+     </header>
 </body>
 </html>
