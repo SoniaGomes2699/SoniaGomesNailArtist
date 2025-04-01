@@ -56,6 +56,30 @@
              width: 50px;
         }
 
+        .back-button {
+             position: fixed;
+             bottom: 20px;
+             right: 20px;
+             background-color: white;
+             color: black;
+             font-size: 30px;
+             text-align: center;
+             width: 50px;
+             height: 50px;
+             border-radius: 50%;
+             box-shadow: 0 0 15px white;
+             text-decoration: none;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             transition: 0.3s;
+        }
+
+        .back-button:hover {
+             background-color: rgba(255, 255, 255, 0.8);
+             box-shadow: 0 0 20px white;
+        }
+
     </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,5 +110,9 @@
     </a>
 </nav>
 
+    <a href="index.html" class="back-button">
+    &#8679;
+    </a>
+    
 </body>
 </html>
