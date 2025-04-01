@@ -1,1 +1,112 @@
 <!--Criado por Sónia Gomes-->
+
+<!--Criado por Sónia Gomes-->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sónia Gomes - Nail Artist</title>
+
+    <style>
+  
+        body {
+            background-image: url('images/fundo.jpg');
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            padding: 0 10%; 
+            font-family: "Antic Didone", serif;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+      
+         .logo img {
+              height: 550px;
+              width: 550px; 
+              border-radius: 50%; 
+              border: 3px solid white; 
+              box-shadow: 0 0 30px 7px white; 
+        }
+
+        .nav-links {
+             display: flex;
+             flex-direction: column; 
+             align-items: flex-start; 
+             margin-right: 10px;
+        }
+
+        .nav-links a {
+             display: flex;
+             align-items: center; /* Alinha o texto ao centro da imagem */
+             gap: 15px; /* Espaço entre a imagem e o texto */
+             text-decoration: none;
+             color: white;
+             font-size: 30px;
+             transition: 0.3s;
+             margin-bottom: 35px; 
+        }
+
+        .nav-links a:hover {
+             color: #ffffff;
+             text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);  
+        }
+
+        .nav-links img {
+             height: 50px;
+             width: 50px;
+        }
+
+        .back-button {
+             position: fixed;
+             bottom: 20px;
+             right: 20px;
+             background-color: white;
+             color: black;
+             font-size: 30px;
+             text-align: center;
+             width: 50px;
+             height: 50px;
+             border-radius: 50%;
+             box-shadow: 0 0 15px white;
+             text-decoration: none;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             transition: 0.3s;
+        }
+
+        .back-button:hover {
+             background-color: rgba(255, 255, 255, 0.8);
+             box-shadow: 0 0 20px white;
+        }
+
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+     <!-- Logotipo -->
+    <div class="logo">
+        <img src="images/logorecortado.png" alt="Logótipo da Empresa">
+    </div>
+
+    
+
+    <a href="index.html" class="back-button">
+    &#8679;
+    </a>
+    
+</body>
+</html>
